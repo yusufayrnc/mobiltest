@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View, Image, Animated } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { getTest } from '@/data/tests';
-import { getTestImageSource } from '@/utils/testImages';
+import { getTestImageSource } from './utils/testImages';
 import { useSharedValue, useAnimatedStyle, withTiming } from 'react-native-reanimated';
 
 export default function TestScreen() {
@@ -43,7 +43,7 @@ export default function TestScreen() {
     progress.value = withTiming(targetProgress, { duration: 300, easing: (t) => t * (2 - t) });
   }, [questionIndex, test.questions.length]);
 
-  const imageSource = getImageSource(test.key, question.imageUri as string | undefined);
+  const imageSource = getTestImageSource(test.key, question.imageUri as string | undefined);
 
   return (
     <SafeAreaView style={styles.safeArea} edges={['top']}>
