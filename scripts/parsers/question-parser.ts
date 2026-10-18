@@ -1,4 +1,4 @@
-﻿export interface ParsedQuestion {
+export interface ParsedQuestion {
   id: string;
   question: string;
   options: string[];

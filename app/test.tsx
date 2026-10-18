@@ -1,4 +1,4 @@
-﻿import { router, useLocalSearchParams } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import { ArrowLeft, ArrowRight, Check, LucideImage } from '@/utils/icons';
 import { useState, useEffect } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View, Image, Animated } from 'react-native';

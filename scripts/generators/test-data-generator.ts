@@ -1,4 +1,4 @@
-﻿import * as fs from 'fs';
+import * as fs from 'fs';
 import * as path from 'path';
 import { ParsedQuestion, TestParseResult } from '../parsers/question-parser';
 

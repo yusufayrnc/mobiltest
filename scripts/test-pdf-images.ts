@@ -1,4 +1,4 @@
-﻿import { fromPath } from 'pdf2pic';
+import { fromPath } from 'pdf2pic';
 import * as fs from 'fs';
 import * as path from 'path';
 

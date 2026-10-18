@@ -1,4 +1,4 @@
-﻿import pdfParse from 'pdf-parse';
+import pdfParse from 'pdf-parse';
 import * as fs from 'fs';
 import * as path from 'path';
 

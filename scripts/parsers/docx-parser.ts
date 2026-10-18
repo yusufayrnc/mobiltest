@@ -1,4 +1,4 @@
-﻿import mammoth from 'mammoth';
+import mammoth from 'mammoth';
 import * as fs from 'fs';
 import * as path from 'path';
 
