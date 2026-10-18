@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "skills": {
+    "eas-app-stores": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/expo/skills/eas-app-stores/SKILL.md",
+      "computedHash": "5e6e23df7a7d88aa72bc5dee63bc059e174f044ce46e5df4faee5a872f547cee"
+    },
+    "eas-workflows": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/expo/skills/eas-workflows/SKILL.md",
+      "computedHash": "45ae128c7328a149b61b367ca667400543d7f7fc9ba2f3be973fca219c40d490"
+    },
+    "expo-animation": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/expo/skills/expo-animation/SKILL.md",
+      "computedHash": "8f37108472fb5bcaa9978049864a09861c1e4a1980dc13c46b317865452300ab"
+    },
+    "expo-dev-client": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/expo/skills/expo-dev-client/SKILL.md",
+      "computedHash": "f71df52ad2d5524233f22a1970b09354af5364b12f41597d83d36180f6ea55f5"
+    },
+    "expo-router": {
+      "source": "expo/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/expo/skills/expo-router/SKILL.md",
+      "computedHash": "feef393db7b7b59c8180c917e3edc2f3db9e3dbfe4b6dcfeb2cfe2e4c47f8e7c"
+    },
+    "expo/building-native-ui": {
+      "source": "https://github.com/expo/skills.git",
+      "skill": "expo-animation",
+      "version": "latest"
+    },
+    "expo/expo-cicd-workflows": {
+      "source": "https://github.com/expo/skills.git",
+      "skill": "eas-workflows",
+      "version": "latest"
+    },
+    "expo/expo-deployment": {
+      "source": "https://github.com/expo/skills.git",
+      "skill": "eas-app-stores",
+      "version": "latest"
+    },
+    "expo/expo-dev-client": {
+      "source": "https://github.com/expo/skills.git",
+      "skill": "expo-dev-client",
+      "version": "latest"
+    },
+    "expo/expo-router": {
+      "source": "https://github.com/expo/skills.git",
+      "skill": "expo-router",
+      "version": "latest"
+    }
+  }
+}
